@@ -8,7 +8,7 @@ export const FethingData=()=>{
   const fetchDataFun=async()=>{
     const response= await fetch('http://localhost:4005')
     const data= await response.json()
-    console.log("the data coming===",data)
+   // console.log("the data coming===",data)
   }
   useEffect(()=>{
       
