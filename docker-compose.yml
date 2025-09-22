@@ -1,0 +1,20 @@
+
+
+# Services
+services:
+  # Server service
+ 
+  # Client service
+  client:
+    build:
+     
+      dockerfile: Dockerfile
+
+    container_name: TodoApp
+    ports:
+      - "3005:3005"
+    
+
+  # Database service
+
+# Volumes define

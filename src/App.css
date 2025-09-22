@@ -1,0 +1,66 @@
+.App{
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+.Box{
+  width:500px;
+  height:600px;
+ 
+  margin-left: 150px;
+  
+  background-color:azure
+  
+}
+.input{
+  height: 40px;
+  width: 170px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.taskList{
+  display: flex;
+  flex-direction:column;
+}
+.submit{
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+.taskRow{
+  margin-left: 50px;
+  width:250px;
+  height:50px;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items:center
+
+}
+.buttonTabs
+{
+  margin-left: 50px;
+  width:250px;
+  height:40px;
+  display: flex;
+}
+.button{
+  width:90px;
+  height:40px;
+  
+}
+.button:active {
+  color: red;
+  background-color: white;
+}
+.text{
+  margin-left: 50px;
+}
