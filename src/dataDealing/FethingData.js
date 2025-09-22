@@ -4,7 +4,7 @@ import { ThemeContext } from "../createcontextfunction/ThemeProvider";
 export const FethingData=()=>{
 
   const {user}=useContext(ThemeContext)
-  console.log("user info===",user)
+ // console.log("user info===",user)
   const fetchDataFun=async()=>{
     const response= await fetch('http://localhost:4005')
     const data= await response.json()
@@ -39,7 +39,7 @@ fetchDataFun()
      const data=await res.json()
      console.log("the post respionse cominff===",data)*/
      const res=await axios.post(`http://localhost:4005/user/${5}`,obj)
-     console.log("the post respionse cominff===",res.data)
+    // console.log("the post respionse cominff===",res.data)
      localStorage.setItem('userInfo',JSON.stringify(res.data))
   }
 
